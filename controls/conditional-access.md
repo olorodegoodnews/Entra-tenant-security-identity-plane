@@ -1,16 +1,19 @@
 # Conditional Access
 
 ## Purpose
-Conditional Access is used to enforce access requirements based on conditions such as user, application, device state, or risk.
+Conditional Access is used to enforce access decisions based on defined conditions such as user targeting, application targeting, sign-in context, or risk.
 
 ## Configuration Summary
-To be completed.
+This section will document the Conditional Access policies configured in the tenant.
 
 ## Security Rationale
-This control helps reduce unauthorised access by applying access decisions only when defined security requirements are met.
+Conditional Access strengthens identity security by ensuring access is only granted when required security conditions are met.
+
+## Implementation Notes
+This section will record policy scope, included users, excluded users, target applications, and grant or session controls.
 
 ## Evidence
-- Add screenshot references here
+Screenshots and configuration evidence will be referenced here.
 
 ## Validation
-- Add test summary here
+Testing results will be recorded here to confirm whether the policy behaved as expected.
