@@ -3,41 +3,20 @@ This repository contains the implementation evidence, control documentation, val
 
 # Entra Tenant Security - Identity Plane
 
-## Project Overview
-This repository contains the implementation documentation, configuration evidence, testing records, and security rationale for an Entra tenant identity-plane security assignment.
-
 ## Objective
-The objective of this project is to implement, document, and validate core identity-plane security controls within an Entra tenant using a structured and review-friendly evidence architecture.
+This repository documents the implementation and validation of key Entra identity-plane security controls.
 
 ## Scope
-This project includes:
-- tenant baseline documentation
-- implementation of identity security controls
-- configuration evidence and screenshots
-- validation and testing records
-- security rationale for each implemented control
+The project includes control configuration, supporting evidence, and testing results.
 
-## Controls Implemented
+## Controls
 - Conditional Access
-- Multi-Factor Authentication
-- Password Protection
+- MFA
 - Identity Protection
-- Privileged Identity Management
-- External User Access
-
-## Repository Structure
-- `docs/` - assignment documentation, scope, summary, testing, and conclusion
-- `controls/` - implementation notes for each control area
-- `evidence/screenshots/` - screenshot evidence for configuration steps
-- `evidence/test-results/` - test and validation evidence
-- `evidence/exports/` - exported or supporting artifacts
-- `rationale/` - security justification for each control
-- `changelog/` - implementation activity log
+- PIM
 
 ## Success Criteria
-This repository will be considered successful if:
-- each required control is implemented and documented
-- each control includes supporting evidence
-- testing confirms the expected security outcome
-- naming and file structure remain consistent throughout
-- the repository is easy for a reviewer to navigate
+- controls are implemented correctly
+- evidence is captured clearly
+- testing shows expected outcomes
+- repository is easy to review
