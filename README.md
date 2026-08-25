@@ -3,11 +3,18 @@ This repository contains the implementation evidence, control documentation, val
 
 # Entra Tenant Security - Identity Plane
 
-## Objective
+## Project Overview
 This repository documents the implementation and validation of key Entra identity-plane security controls.
 
+## Objective
+The objective of this project is to configure selected Entra security controls, record implementation evidence, and validate that the controls work as expected.
+
 ## Scope
-The project includes control configuration, supporting evidence, and testing results.
+This repository includes:
+- control implementation notes
+- configuration evidence
+- testing and validation records
+- brief security rationale for each control
 
 ## Controls
 - Conditional Access
@@ -15,8 +22,14 @@ The project includes control configuration, supporting evidence, and testing res
 - Identity Protection
 - PIM
 
+## Repository Structure
+- `docs/` - project scope and testing summary
+- `controls/` - implementation notes for each control
+- `evidence/screenshots/` - screenshot evidence
+- `evidence/test-results/` - validation records
+
 ## Success Criteria
-- controls are implemented correctly
+- controls are configured correctly
 - evidence is captured clearly
-- testing shows expected outcomes
+- testing confirms expected outcomes
 - repository is easy to review
